@@ -1,1 +1,6 @@
 OLED.init(128, 64)
+music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+OLED.writeStringNewLine("Google X")
+OLED.writeStringNewLine("Home Hub")
+basic.pause(1000)
+OLED.clear()
