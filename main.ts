@@ -1,3 +1,1 @@
-basic.forever(function () {
-	
-})
+OLED.init(128, 64)
